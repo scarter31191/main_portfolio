@@ -40,8 +40,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
-  --primary-white: #000;
+  --primary-white: rgb(255, 255, 255);
   --primary-grey: #CCC2C2;
+  --primary-red: #ef4035;
+  --primary-hover-red: #f35501;
 }
 
 body {
@@ -103,6 +105,11 @@ nav ul li {
 
 .main-info {
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -113,4 +120,21 @@ nav ul li {
 .main-info h1 {
   color: var(--primary-grey);
   text-transform: uppercase;
+}
+
+/***************************TYPED TEXT**********************************/
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-grey);
+}
+
+/***************************HEADER MAIN OFFER BUTTON**********************************/
+
+.btn-main-offer {
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
 }
