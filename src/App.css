@@ -57,7 +57,7 @@ nav {
 }
 
 .logo {
-  width: 8.25rem;
+  width: 8.18.75rem;
 }
 
 /***************************MENU LINKS**********************************/
@@ -85,7 +85,7 @@ nav ul li {
 }
 
 .navbar-brand {
-  max-width: 17.25rem;
+  max-width: 17.18.75rem;
   padding: 0;
 }
 
@@ -154,7 +154,7 @@ nav ul li {
   border: 1px solid var(--primary-red);
   text-transform: uppercase;
   border-radius: 0;
-  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  padding: 0.618.75rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
 }
@@ -183,8 +183,30 @@ nav ul li {
 
 /***************************ABOUT ME**********************************/
 
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 .profile-img {
-  height: 600px;
-  width: 600px; 
+  height: 18.75rem;
+  width: 18.75rem; 
+  border-radius: 50%;
+  padding: .3rem;
+  border: 1px solid var(--primary-grey);
+}
+
+.about-heading {
+  color: var(--primary-grey);
+  text-transform: uppercase;
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    height: 12rem;
+    width: 12rem;
+  }
 }
 

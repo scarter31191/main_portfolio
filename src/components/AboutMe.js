@@ -6,12 +6,12 @@ const AboutMe = () => {
         <div className='container py-5'>
             <div className='row'>
                 <div className='col-lg-6 col-xm-12'>
-                    <div className='photo-wrap'>
+                    <div className='photo-wrap mb-4'>
                         <img className='profile-img'src={Carter} alt='Steve Carter...'/>
                     </div>
                 </div>
                 <div className='col-lg-6 col-xm-12'>
-                    <h1> About Me</h1>
+                    <h1 className='about-heading'> About Me</h1>
                     <p>
                         I am a highly motivated individual driven to find the gaps and innovate ways to serve customer's needs. 
                         Software Engineering has become a creative outlet for me. A dream of mine is to be part of that community striving to 
