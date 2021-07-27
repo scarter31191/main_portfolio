@@ -6,7 +6,9 @@ const AboutMe = () => {
         <div className='container py-5'>
             <div className='row'>
                 <div className='col-lg-6 col-xm-12'>
-                    <img src={Carter} alt='Steve Carter...'/>
+                    <div className='photo-wrap'>
+                        <img className='profile-img'src={Carter} alt='Steve Carter...'/>
+                    </div>
                 </div>
                 <div className='col-lg-6 col-xm-12'>
                     <h1> About Me</h1>
