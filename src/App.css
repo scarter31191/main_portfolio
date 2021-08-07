@@ -43,6 +43,7 @@
   --primary-white: rgb(255, 255, 255);
   --primary-light-grey: #f4f4f4;
   --primary-grey: #CCC2C2;
+  --primary-dark-grey: #666666;
   --primary-dark: rgb(52,58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f35501;
@@ -248,4 +249,12 @@ nav ul li {
 
 .services .box:hover h3 {
   color: var(--primary-white);
+}
+
+/***************************EXPERIENCE**********************************/
+
+.experience-wrapper {
+  position: absolute;
+  padding: 3.125rem;
+  overflow: hidden;
 }
