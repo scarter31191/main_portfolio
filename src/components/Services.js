@@ -11,7 +11,7 @@ function Services() {
                 <div className='row'>
                     <div className='col-md-3 col-sm-6'>
                         <div className='box'>
-                            <FontAwesomeIcon icon={faPencilRuler} size='2x'/>
+                            <FontAwesomeIcon className="icon" icon={faPencilRuler} size='2x'/>
                                 <h3>Web Design</h3>
                                 <p> I approach each project individually and always focus on the result.</p>
                         </div>
@@ -19,7 +19,7 @@ function Services() {
                         {/* - */}
                     <div className='col-md-3 col-sm-6'>
                         <div className='box'>
-                            <FontAwesomeIcon icon={faLaptopCode} size='2x'/>
+                            <FontAwesomeIcon className="icon" icon={faLaptopCode} size='2x'/>
                             <h3>Web Developer</h3>
                             <p> Your website will be built with new and proven technologies</p>
                         </div>
@@ -27,7 +27,7 @@ function Services() {
                         {/* - */}
                     <div className='col-md-3 col-sm-6'>
                         <div className='box'>
-                            <FontAwesomeIcon icon={faMobile} size='2x'/>
+                            <FontAwesomeIcon className="icon" icon={faMobile} size='2x'/>
                             <h3>Mobile Developer</h3>
                             <p> Your apps will be built to your expectations and a user friendly flow</p>
                         </div>
@@ -35,7 +35,7 @@ function Services() {
                         {/* - */}
                     <div className='col-md-3 col-sm-6'>
                         <div className='box'>
-                            <FontAwesomeIcon icon={faChalkboard} size='2x'/>
+                            <FontAwesomeIcon className="icon" icon={faChalkboard} size='2x'/>
                             <h3>Full-Stack Software Engineer Tutor</h3>
                             <p> The goal is to provide value to students with industry best practices and the confidence to build their carries path </p>
                         </div>

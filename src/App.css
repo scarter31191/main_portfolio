@@ -232,3 +232,20 @@ nav ul li {
   margin-bottom: 1.85rem;
   background: var(--primary-white);
 }
+
+.services .box:hover {
+  background: var(--primary-dark);
+  border-bottom: 0.3125rem solid var(--primary-hover-red);
+}
+
+.services .box:hover .icon {
+  color: var(--primary-white);
+}
+
+.services .box:hover p {
+  color: var(--primary-white);
+}
+
+.services .box:hover h3 {
+  color: var(--primary-white);
+}
